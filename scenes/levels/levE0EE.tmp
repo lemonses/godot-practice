@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1csi7psun8k8"]
+
+[ext_resource type="Texture2D" uid="uid://cemof4iip0p1p" path="res://icon.svg" id="1_7yy5c"]
+[ext_resource type="Script" path="res://scenes/Sprite2D.gd" id="2_ho0ik"]
+
+[node name="Level" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_7yy5c")
+region_rect = Rect2(0, 0, 74, 78)
+script = ExtResource("2_ho0ik")
